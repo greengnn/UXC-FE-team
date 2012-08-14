@@ -76,7 +76,8 @@ IE多个版本并存可选择
 2. Sublime Text2
 
 
-## 一些参考资料
+## 参考资料
+<http://code.google.com/p/reset5/> html5 css reset
 
 <http://code.google.com/doctype/>Google Doctype,包括Web安全、JavaScript、DOM控制、 CSS技巧和窍门等。
 
