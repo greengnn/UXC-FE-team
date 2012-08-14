@@ -120,10 +120,11 @@ URL中的引号（”"或”）请省略。
 ### 建议的hacks
 
 使用作用域区分浏览器类型
-    <!--[if lt IE 7]><html class="ie6 oldie"><![endif]-->
-    <!--[if IE 7]><html class="ie7 oldie"><![endif]-->
-    <!--[if IE 8]><html class="ie8 oldie"><![endif]-->
-    <!--[if gt IE 8]><!--> <html> <!--<![endif]-->
+
+      <!--[if lt IE 7]><html class="ie6 oldie"><![endif]-->
+      <!--[if IE 7]><html class="ie7 oldie"><![endif]-->
+      <!--[if IE 8]><html class="ie8 oldie"><![endif]-->
+      <!--[if gt IE 8]><!--> <html> <!--<![endif]-->
 
 区别属性：
 
