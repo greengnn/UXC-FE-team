@@ -1,5 +1,5 @@
 # CSS代码逻辑组织
-将CSS代码逻辑拆分为四类组织
+将CSS代码逻辑拆分为5类组织
 
 ### 1. 重置
 填补各个浏览器中默认样式的不一致，比如YUI的reset 和 font 样式文件
@@ -37,36 +37,35 @@
 
 综合实例
 
-  <div id="doc">
-    <div class="hd">
-      <!--header-->
+    <div id="doc">
+      <div class="hd">
+        header
+      </div>
+      <div class="bd lay-g1">
+        <article class="lay-i-1">
+          <div class="mod-pics them-1">
+            <div class="hd">
+              <h3>title</h3>
+            </div>
+            <div class="bd">
+              <ul class="list">
+                <li><a href="#"><img src="/pic.jpg" alt="pic name"></a></li>
+                <li><a href="#"><img src="/pic.jpg" alt="pic name"></a></li>
+                <li><a href="#"><img src="/pic.jpg" alt="pic name"></a></li>
+              </ul>
+            </div>
+            <div class="ft">
+              <a href="#">more</a>
+            </div>
+          </div>
+        </article>
+        <aside class="lay-i-2">
+          aside
+        </aside>
+      </div>
+      <div class="ft">
+      footer
+      </div>
     </div>
-    <div class="bd lay-g1"><!--body layout style 1-->
-      <article class="lay-i-1"><!--article layout article 1-->
-        <div class="mod-pics them-1">
-          <!--模块pics 风格1-->
-          <div class="hd">
-            <h3>title</h3>
-          </div>
-          <div class="bd">
-            <ul class="list">
-              <li><a href="#"><img src="/pic.jpg" alt="pic name"></a></li>
-              <li><a href="#"><img src="/pic.jpg" alt="pic name"></a></li>
-              <li><a href="#"><img src="/pic.jpg" alt="pic name"></a></li>
-            </ul>
-          </div>
-          <div class="ft">
-            <a href="#">more</a>
-          </div>
-        </div>
-      </article>
-      <aside class="lay-i-2">
-        
-      </aside>
-    </div>
-    <div class="ft"></div>
-  </div>
-
-
 
 
