@@ -38,7 +38,7 @@
 综合实例
 
     <div id="doc">
-      <div class="hd">
+      <div id="hd">
         header
       </div>
       <div id="bd" class="lay-g1">
@@ -63,7 +63,7 @@
           aside
         </aside>
       </div>
-      <div class="ft">
+      <div id="ft">
       footer
       </div>
     </div>
