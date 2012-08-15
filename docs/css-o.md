@@ -41,7 +41,7 @@
       <div class="hd">
         header
       </div>
-      <div class="bd lay-g1">
+      <div id="bd" class="lay-g1">
         <article class="lay-i-1">
           <div class="mod-pics them-1">
             <div class="hd">
